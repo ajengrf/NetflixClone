@@ -12,7 +12,9 @@ const HomePage = () => {
     <View style={styles.container}>
       <SafeAreaView style={styles.safeAreaView} />
       <Navbar />
-      <ScrollView showsVerticalScrollIndicator={false}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainerStyle={styles.contentContainerStyle}>
         <ListPoster
           title="Top 10 TV Shows in Indonesia Today"
           type={TYPE.WITH_NUMBER}

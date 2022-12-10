@@ -8,6 +8,9 @@ const styles = StyleSheet.create({
   safeAreaView: {
     backgroundColor: Color.white,
   },
+  contentContainerStyle: {
+    paddingBottom: 16,
+  },
   posterImageWithNumber: {
     marginLeft: 35,
   },
