@@ -1,0 +1,5 @@
+export const TYPE = {
+  DEFAULT: 'DEFAULT',
+  WITH_NUMBER: 'WITH_NUMBER',
+  WITH_PLAYER: 'WITH_PLAYER',
+};

@@ -8,6 +8,9 @@ const styles = StyleSheet.create({
   safeAreaView: {
     backgroundColor: Color.white,
   },
+  posterImageWithNumber: {
+    marginLeft: 35,
+  },
 });
 
 export default styles;
