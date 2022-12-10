@@ -5,7 +5,7 @@ import Octicons from 'react-native-vector-icons/Octicons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import {Icons, Images} from '../../../../../../assets';
 
-const Header = () => {
+const Navbar = () => {
   return (
     <View style={styles.container}>
       <Image source={Icons.netflixLogo} style={styles.logo} />
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;

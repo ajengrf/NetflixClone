@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, ScrollView, View} from 'react-native';
 
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import ListPoster from './components/ListPoster';
 import {TYPE} from './components/ListPoster/constants';
 
@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <View style={styles.container}>
       <SafeAreaView style={styles.safeAreaView} />
-      <Header />
+      <Navbar />
       <ScrollView showsVerticalScrollIndicator={false}>
         <ListPoster
           title="Top 10 TV Shows in Indonesia Today"
