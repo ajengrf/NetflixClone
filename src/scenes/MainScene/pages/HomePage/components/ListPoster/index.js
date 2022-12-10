@@ -38,8 +38,8 @@ const ListPoster = ({title, type, posterImageStyle}) => {
 
       case TYPE.WITH_PLAYER:
         return (
-          <Pressable onPress={onPress} style={styles.posterContainer}>
-            <View>
+          <View style={styles.posterContainer}>
+            <Pressable onPress={onPress}>
               <Image
                 source={{
                   uri: 'https://m.media-amazon.com/images/M/MV5BM2MzYThlMWQtYWQyYy00ZWZmLTljMmMtMWEzZmYyZTNjZWYyXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg',
@@ -58,7 +58,7 @@ const ListPoster = ({title, type, posterImageStyle}) => {
                   size={80}
                 />
               </View>
-            </View>
+            </Pressable>
             <View style={styles.infoSection}>
               <Feather name="info" color={Color.white} size={20} />
               <Entypo
@@ -67,7 +67,7 @@ const ListPoster = ({title, type, posterImageStyle}) => {
                 size={18}
               />
             </View>
-          </Pressable>
+          </View>
         );
 
       default:
